@@ -25,6 +25,10 @@ body {
   font-size: 120px;
 }
 
+.purple-back {
+  background-color: var(--color-purple);
+}
+
 li {
   font-family: 'SSP', sans-serif;
   font-size: 12px;
@@ -63,7 +67,22 @@ li {
   max-width: 150px;
 }
 
+#icon-right {
+  content: 'e902';
+  font-family: 'holberton_school-icon';
+}
+
+#icon-left {
+  content: 'e903';
+  font-family: 'holberton_school-icon';
+}
+
 @font-face {
   font-family: 'SSP';
   src: url('source-sans-pro/SourceSansPro-Black.otf');
 }
+@font-face {
+  font-family: 'holberton_school-icon';
+  src: url('holberton_school-icon/style.css');
+}
+
