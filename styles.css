@@ -1,3 +1,7 @@
+@import url(holberton_school-icon/style.css);
+@import url(holberton_school-icon/style.scss);
+
+
 :root {
 --color-purple: #C271FF ;
 }
@@ -9,13 +13,22 @@
   background-image: url(images/pic_1.jpg);
   background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center;
-  height: auto;
+	background-position: top;
+  min-height: 800px;
+
 }
 
 li {
   font-family: 'SSP', sans-serif;
   font-size: 12px;
+  color: white;
+}
+
+.text-font {
+  font-family: 'SSP', sans-serif;
+}
+.colortext {
+  color: var(--color-purple);
 }
 
 .button {
@@ -37,6 +50,10 @@ li {
 } 
 .button:hover {
   opacity: 0.9;
+}
+
+.profile-pic {
+  max-width: 150px;
 }
 
 @font-face {
