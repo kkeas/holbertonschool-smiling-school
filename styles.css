@@ -29,6 +29,10 @@ body {
   background-color: var(--color-purple);
 }
 
+.backwhite {
+  background-color: white;
+}
+
 li {
   font-family: 'SSP', sans-serif;
   font-size: 12px;
