@@ -21,6 +21,14 @@
 
 }
 
+.pricing {
+  background-image: url(images/pic_2.jpg);
+  background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+  min-height: 1093px;
+}
+
 .schooled {
   font-size: 120px;
 }
