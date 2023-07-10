@@ -6,7 +6,7 @@
 --color-purple: #C271FF ;
 }
 
-body {
+.darkback {
   background-color: #071629;
 }
 
@@ -45,6 +45,8 @@ li {
 .colortext {
   color: var(--color-purple);
 }
+
+
 
 .button {
   color: var(--color-white);
