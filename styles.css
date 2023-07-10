@@ -39,6 +39,7 @@ li {
   color: white;
 }
 
+
 .text-font {
   font-family: 'SSP', sans-serif;
 }
@@ -71,6 +72,25 @@ li {
 
 .profile-pic {
   max-width: 150px;
+}
+
+
+.fb:before {
+  content: "\e908";
+	font-family: 'holberton_school-icon';
+	color: var(--color-white);
+}
+
+.twitter:before {
+  content: "\e90f";
+	font-family: 'holberton_school-icon';
+	color: var(--color-white);
+}
+
+.ig:before {
+  content: "\e90a";
+	font-family: 'holberton_school-icon';
+	color: var(--color-white);
 }
 
 #icon-right {
