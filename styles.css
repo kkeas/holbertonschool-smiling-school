@@ -12,6 +12,9 @@
 
 /* header */
 
+body {
+  flex-direction: column;
+}
 .homebody {
   background-image: url(images/pic_1.jpg);
   background-repeat: no-repeat;
@@ -21,6 +24,10 @@
 
 }
 
+.btn-secondary {
+  background-color: #C271FF;
+
+}
 .pricing {
   background-image: url(images/pic_2.jpg);
   background-repeat: no-repeat;
@@ -35,6 +42,7 @@
 
 .purple-back {
   background-color: var(--color-purple);
+
 }
 
 .backwhite {
